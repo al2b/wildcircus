@@ -1,0 +1,184 @@
+@import url(//fonts.googleapis.com/css?family=Chewy);
+body {
+  height: 100%;
+  margin: 50px;
+  background: #cfd6d9;
+}
+
+header {
+  text-align: center;
+  background: #18BC9C;
+    border-radius: 40px;
+
+}
+
+nav {}
+
+#menu {
+  background: #084035;
+  padding: 10px;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Verdana;
+}
+
+#menu a:hoover {
+  color: #B23000;
+  text-decoration: none;
+  font-family: Arial, Verdana;
+}
+
+#menu a:visited color: white;
+text-decoration:none;
+font-family:Arial,
+Verdana;
+
+}
+ul {
+  padding: 10px;
+}
+li {
+  display: inline;
+  padding: 0px 15px 50px 15px;
+  font-family: 'Verdana', regular;
+  width: 25px;
+  height: 25px;
+  color: #B23000;
+}
+img {
+  margin: 40px 0px 0px 0px;
+  border-radius: 40px;
+}
+.image_presentation {
+  margin: 0px;
+}
+h1 {
+  color: #B23000;
+  padding: 15px 0px 0px 15px;
+  font-family: 'Chewy', regular;
+}
+h2 {
+  color: #B23000;
+  padding: 15px 0px 0px 15px;
+  font-family: 'Chewy', regular;
+}
+p {
+  font-family: 'Verdana', regular;
+  padding: 10px 0px 0px 10px;
+}
+article {
+  font-family: 'Verdana', regular;
+}
+div {
+  background-color: white;
+} 
+.program {
+  padding: 15px;
+  background: #cfd6d9;
+}
+blockquote {
+  font-style: italic;
+  margin-left: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 30px;
+}
+.heure {
+  float: right;
+}
+div.show {
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 15px 0 15px;
+  border-radius: 12px;
+}
+p.performance-texte {
+  color: white;
+  background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 4));
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 4));
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 4));
+  background: rgba(0, 0, 0, 1);
+  background-color: black;
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 150px;
+}
+.show-description small {
+  opacity: 1;
+}
+.first {
+  background-image: url("http://www.lepoint.fr/images/2013/07/01/to-1653533-jpg_1538193.JPG");
+}
+.second {
+  background-image: url("http://www.magiefacile.org/wp-content/uploads/2014/09/magicien1-1024x847.jpg");
+}
+.third {
+  background-image: url("http://www.normandie-actu.fr/files/2014/05/DSC_0376-630x0.JPG")
+}
+.iframe1 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #cfd6d9;
+}
+iframe {
+  width: 60%;
+  display: block;
+  margin: 0px auto;
+}
+
+footer {
+  font-size: 10px;
+}
+
+form {
+  font-family: 'Verdana', regular;
+}
+@media (max-width: 500px) {
+  img.image_presentation {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  small {
+    font-size: 16px;
+  }
+}
